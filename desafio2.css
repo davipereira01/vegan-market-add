@@ -178,6 +178,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -24vh;
 
 }
 
@@ -198,8 +199,8 @@ justify-content: space-around;
 
 img {
 
-    width: 21vw;
-    height: 24vh;
+    width: 16vw;
+    height: 22vh;
     object-fit: cover;
 
 }
@@ -222,9 +223,11 @@ img {
 }
 
 .box {
-    width: 21vw;
-    height: 50vh;
-    background-color:#fa023c;
+    width: 16vw;
+    height: 42vh;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 7px rgb(169 176 189 / 95%);
     text-align: center;
     
    
@@ -233,13 +236,21 @@ img {
 /*scroll 3*/
 
 #three {
-    background-color: #f7f7f7;
+    
     position: relative;
+    margin-top: 10vh;
 }
 
 #image-box {
-    width: 99%;
-    height: 92%
+    width: 100%;
+    height: 100%;
+}
+
+#image-box-2 {
+
+    width: 100%;
+    height: 54%;
+
 }
 
 #box-three {
@@ -264,8 +275,8 @@ img {
     color: black;
     height: 28vh;
     width: 28vw;
-    margin-top: 9vh;
-    margin-bottom: -4vh;
+    margin-top: -5vh;
+    margin-bottom: 8vh;
 }
 
 #icon-image {
@@ -300,6 +311,11 @@ img {
     left: 0;
     margin: auto;
     height: 79vh;
+}
+
+#box-4 {
+    height: 68vh;
+    width: 33vw;
 }
 
 #nevoa-dois {
@@ -609,3 +625,5 @@ ul{
     background-color: #24262b;
     justify-content: center;
 }
+
+
